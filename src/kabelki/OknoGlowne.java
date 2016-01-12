@@ -420,6 +420,10 @@ public class OknoGlowne extends javax.swing.JFrame {
         okno.setLocation(320, 320);
         okno.setTitle("O Programie");
         okno.setVisible(true);
+        okno.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        
+        
+        
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -427,6 +431,7 @@ public class OknoGlowne extends javax.swing.JFrame {
         okno.setLocation(380, 320);
         okno.setTitle("Dodawanie nowego przewodu");
         okno.setVisible(true);
+        okno.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -463,6 +468,7 @@ public class OknoGlowne extends javax.swing.JFrame {
         b.updatePrzewod(id, a, e, c, d);
         przelicz();
         jTable1.setRowSelectionInterval(x, x);
+        jTextField2.setText(c);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -479,6 +485,7 @@ public class OknoGlowne extends javax.swing.JFrame {
         b.updatePrzewod(id, a, e, c, d);
         przelicz();
         jTable1.setRowSelectionInterval(x, x);
+        jTextField2.setText(c);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed

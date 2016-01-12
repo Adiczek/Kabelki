@@ -5,6 +5,6 @@ public class Kabelki {
         JFrame okno = new OknoGlowne();        
         okno.setLocation(320, 320);
         okno.setTitle("Lista przewodów");
-        okno.setVisible(true);
+        okno.setVisible(true); 
     }    
 }
