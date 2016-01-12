@@ -1,4 +1,11 @@
 package kabelki;
+
+
+/*
+
+@Author Adrian M
+
+*/
 import javax.swing.JFrame;
 public class Kabelki {   
     public static void main(String[] args) {
